@@ -1,0 +1,67 @@
+body{
+	background-image: url(https://hi-static.z-dn.net/files/d4a/81547933eccaead325b7720a5e6eba88.jpeg);
+background-size: cover;
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: orange;
+	font-family: fantasy;
+	font-size:3em;
+	border-bottom: 2px solid gold;
+	border-radius: 15px;
+	background: url(https://thumbs.gfycat.com/AltruisticImpishAlabamamapturtle-max-1mb.gif);
+}
+img{
+	width: 170px;
+	height: 170px;
+	transition: all 1s;
+}
+/*h2{
+border: 2px solid black;
+display: inline-block;
+text-transform: uppercase;
+color: orange;
+background: black; 
+font-family: fantasy;
+border-bottom: 1px solid gold;
+border-radius: 3px;
+text-align: left;
+padding: 5px 10px;
+}*/
+.pic1{
+	float: left;
+	margin-right: 15px;
+}
+.pic2{
+	float: right;
+	margin-left: 15px;
+}
+p{
+	font-family: 'Alata', sans-serif;
+	color: orange;
+	background: rgba(100,100,100,0.5);
+}
+h2+p{
+	border-bottom: 1px solid gold;
+}
+img:hover{
+	transform: scale(1.1);
+}
+h2{
+	color: orange;
+	border-bottom: 1px solid gold; 
+	border-right:  1px solid gold;
+	box-shadow: 4px 4px 5px #888888;
+	font-family: fantasy;
+	border-radius: 3px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 5px 10px;
+	transition: all 1s;
+}
+h2:hover{
+transform: scale(1.1);
+}
